@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45">
+
+
+        <View
+            android:id="@+id/imgtop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/placa_top" />
+
+        <EditText
+            android:id="@+id/edt_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imgtop"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:background="@android:color/transparent"
+            android:maxLength="20"
+            android:width="120dp"
+            android:text="AAAAA"
+            android:layout_above="@+id/espaco_baixo"/>
+
+        <View
+            android:id="@+id/espaco_baixo"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentBottom="true"
+            />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.65">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:background="@drawable/placa_bottom"
+        android:id="@+id/imgbot"/>
+
+    <EditText
+        android:id="@+id/edt_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imgbot"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp"
+        android:maxLength="20"
+        android:width="120dp"
+        android:layout_below="@+id/espaco_cima"
+        android:background="@android:color/transparent"
+        android:text="BBBB"/>
+
+        <View
+            android:id="@+id/espaco_cima"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            />
+    </RelativeLayout>
+</LinearLayout>

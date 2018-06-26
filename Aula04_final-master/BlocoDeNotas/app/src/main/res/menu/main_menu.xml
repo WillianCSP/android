@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_uma_coluna"
+        android:icon="@drawable/ic_uma_coluna"
+        android:title="Uma coluna"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/item_duas_colunas"
+        android:icon="@drawable/ic_duas_colunas"
+        android:title="Duas colunas"
+        app:showAsAction="always"/>
+
+
+
+</menu>

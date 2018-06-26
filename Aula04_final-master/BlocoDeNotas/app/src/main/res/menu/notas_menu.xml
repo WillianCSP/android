@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_amarelo"
+        android:icon="@drawable/ic_amarelo"
+        android:title="Amarelo"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/item_branco"
+        android:icon="@drawable/ic_branco"
+        android:title="Branco"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/item_verde"
+        android:icon="@drawable/ic_verde"
+        android:title="Verde"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/item_azul"
+        android:icon="@drawable/ic_azul"
+        android:title="Azul"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/item_laranja"
+        android:icon="@drawable/ic_laranja"
+        android:title="Laranja"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/item_apagar"
+        android:icon="@drawable/ic_delete"
+        android:title="Apagar"
+        app:showAsAction="always"/>
+
+
+</menu>

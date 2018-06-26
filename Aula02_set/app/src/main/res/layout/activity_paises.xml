@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#19baff"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="br.com.bsavoini.aula02_set.ContinentesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_pais1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:onClick="onClickPais"
+            android:src="@drawable/africa_do_sul_flag" />
+
+        <ImageView
+            android:id="@+id/img_pais2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:adjustViewBounds="true"
+            android:onClick="onClickPais"
+            android:src="@drawable/africa_do_sul_flag" />
+
+        <ImageView
+            android:id="@+id/img_pais3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:adjustViewBounds="true"
+            android:onClick="onClickPais"
+            android:src="@drawable/africa_do_sul_flag" />
+
+
+    </LinearLayout>
+
+</ScrollView>

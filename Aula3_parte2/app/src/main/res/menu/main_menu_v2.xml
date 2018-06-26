@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_email"
+        android:icon="@drawable/ic_email"
+        android:title="E-mail"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/email_marketing"
+
+                android:icon="@drawable/ic_email_preto"
+                android:title="Marketing" />
+            <item
+
+                android:id="@+id/email_sac"
+                android:icon="@drawable/ic_email_preto"
+                android:title="SAC" />
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/item_telefone"
+        android:icon="@drawable/ic_phone"
+        android:title="telefone"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/telefone_marketing"
+                android:icon="@drawable/ic_phone_preto"
+                android:title="Marketing" />
+            <item
+                android:id="@+id/telefone_sac"
+                android:icon="@drawable/ic_phone_preto"
+                android:title="SAC" />
+        </menu>
+    </item>
+
+
+</menu>
